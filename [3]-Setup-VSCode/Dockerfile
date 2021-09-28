@@ -14,6 +14,3 @@ RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 # Set the Pythonpath and working directory
 ENV PYTHONPATH "/"
 WORKDIR .
-
-# Run Jupyterlab out of the box!
-#RUN jupyter-lab
