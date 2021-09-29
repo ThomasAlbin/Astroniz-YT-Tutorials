@@ -18,7 +18,10 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"ms-toolsai.jupyter"
+		"ms-toolsai.jupyter",
+		"ms-python.vscode-pylance",
+		"ms-python.python",
+		"ms-toolsai.jupyter-keymap"
 	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
