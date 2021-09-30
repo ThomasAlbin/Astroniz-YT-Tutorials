@@ -1,0 +1,8 @@
+# SPICE
+spiceypy
+
+# Interactive Shell
+ipython
+
+# Jupyterlab
+jupyterlab
