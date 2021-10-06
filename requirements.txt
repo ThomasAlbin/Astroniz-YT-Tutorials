@@ -6,3 +6,9 @@ ipython
 
 # Jupyterlab
 jupyterlab
+
+# Numerics and Science
+numpy
+
+# Plotting
+matplotlib
