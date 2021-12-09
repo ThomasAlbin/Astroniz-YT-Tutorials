@@ -10,6 +10,7 @@ jupyterlab
 # Numerics and Science
 numpy
 pandas
+scipy
 
 # Plotting
 matplotlib
