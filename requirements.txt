@@ -3,6 +3,7 @@ spiceypy
 
 # Interactive Shell
 ipython
+tqdm
 
 # Jupyterlab
 jupyterlab
@@ -14,3 +15,7 @@ scipy
 
 # Plotting
 matplotlib
+imageio
+
+# Machine Learning
+# TBD
