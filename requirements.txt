@@ -17,5 +17,9 @@ scipy
 matplotlib
 imageio
 
+# Rendering, GUI
+PyQt5
+visvis
+
 # Machine Learning
 scikit-learn
