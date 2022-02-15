@@ -3,6 +3,7 @@ spiceypy
 
 # Interactive Shell
 ipython
+ipywidgets
 tqdm
 
 # Jupyterlab
