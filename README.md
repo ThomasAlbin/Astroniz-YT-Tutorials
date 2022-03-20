@@ -4,4 +4,4 @@ Welcome to the Astroniz Tutorial repository. Each individual folder is linked to
 
 Further, the code may not entirely work „out of the box“ and requires e.g., scientific datasets, meta files and other content that are not uploaded on GitHub. In these cases please refer to the corresponding video. All in all, this repository is a work and progress thing to build up a community of Pythonistas and Data Scientists that are eager to learn about space and would like to skill-up coding and science knowledge to contribute something in this particular research domain.
 
-https://www.youtube.com/channel/UCvuCPVj5zTjxdR-EcatFfUg
+https://www.youtube.com/c/Astroniz
