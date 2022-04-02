@@ -25,3 +25,4 @@ visvis
 # Machine Learning
 scikit-learn
 tensorflow
+keras-tuner
