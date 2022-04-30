@@ -13,6 +13,7 @@ jupyterlab
 numpy
 pandas
 scipy
+pingouin
 
 # Plotting
 matplotlib
