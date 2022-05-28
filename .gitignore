@@ -7,3 +7,4 @@ auxiliary/__pycache__/data_fetch.cpython-39.pyc
 *.OBJ
 [ML1]-Asteroid-Spectra/data/lvl0/Bus.Taxonomy.txt
 *.[2]
+\[Project\]-Near-Earth-Objects/raw_data/neodys.cat
