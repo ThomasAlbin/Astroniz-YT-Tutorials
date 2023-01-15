@@ -166,3 +166,44 @@ def hg_app_mag(
     app_mag = red_mag + 5.0 * math.log10(vec_obj2obs_norm * vec_obj2ill_norm)
 
     return app_mag
+
+
+def appmag2irr(app_mag: t.Union[int, float]) -> float:
+    """
+    Convert the apparent magnitude to the corresponding irradiance.
+
+    Convert the apparent magnitude to the corresponding irradiance given in
+    W/m^2. The zero point magnitude is provided by the IAU in [1].
+
+    Parameters
+    ----------
+    app_mag : int or float
+        Apparent bolometric magnitude given in mag.
+
+    Returns
+    -------
+    irradiance : float
+        Irradiance given in W/m^2.
+
+    References
+    ----------
+    [1] https://www.iau.org/static/resolutions/IAU2015_English.pdf
+
+    Examples
+    --------
+    >>> import SolarY
+    >>> irradiance = SolarY.general.photometry.appmag2irr(app_mag=8.0)
+    >>> irradiance
+    1.5887638447672732e-11
+    """
+    # Zero point of the apparent bolometric magnitude given in W/m**2
+    # https://www.iau.org/static/resolutions/IAU2015_English.pdf (page 2)
+    appmag_irr_i0 = 2.518021002e-8
+
+    # Number of photons per m**2 per second for different Johnson-Cousins passbands:
+    # http://spiff.rit.edu/classes/phys440/lectures/filters/filters.html
+
+    # Convert apparent magnitude to irradiance
+    irradiance = 10.0 ** (-0.4 * app_mag + math.log10(appmag_irr_i0))
+
+    return irradiance
