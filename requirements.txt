@@ -28,3 +28,6 @@ visvis
 scikit-learn
 tensorflow
 keras-tuner
+
+# Astronomy and Space
+skyfield
