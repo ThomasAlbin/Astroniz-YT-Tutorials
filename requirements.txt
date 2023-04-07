@@ -23,6 +23,7 @@ imageio
 # Rendering, GUI
 PyQt5
 visvis
+ipympl
 
 # Machine Learning
 scikit-learn
