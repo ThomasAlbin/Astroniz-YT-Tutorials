@@ -32,6 +32,7 @@ keras-tuner
 
 # Astronomy and Space
 astroML
+astropy
 skyfield
 
 # Data Preparation / Augmentation / Processing
