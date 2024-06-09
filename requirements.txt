@@ -15,6 +15,7 @@ pandas
 scipy
 pingouin
 seaborn
+spherical_kde
 
 # Plotting
 matplotlib
